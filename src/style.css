@@ -2,6 +2,7 @@
   --heading-font-family: "Playfair Display", serif;
   --primary-font-family: "Poppins", sans-serif;
   --primary-font-color: #272142;
+  --button-color: #6c63ff;
 }
 
 body {
@@ -12,6 +13,22 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
   font-weight: bold;
+}
+
+h2 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 70px;
+  margin-bottom: 55px;
+}
+
+p {
+  font-weight: normal;
+  line-height: 1.7;
+  color: var(--primary-font-color);
+  opacity: 70%;
+
 }
 
 .hero {
@@ -34,11 +51,22 @@ h1 {
 }
 
 .btn-contact {
-  background: #6c63ff;
+  background: var(--button-color);
+  border: 1px solid var(--button-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
   font-weight: normal;
   line-height: 27px;
+  padding: 18px 30px;
+}
+
+.btn-project {
+  border: 1px solid var(--button-color);
+  border-radius: 4px;
+  color: var(--button-color);
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 24px;
   padding: 18px 30px;
 }
