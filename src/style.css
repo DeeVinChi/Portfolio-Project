@@ -23,12 +23,11 @@ h2 {
   margin-bottom: 55px;
 }
 
-p {
+.project-description {
   font-weight: normal;
   line-height: 1.7;
   color: var(--primary-font-color);
   opacity: 70%;
-
 }
 
 .hero {
@@ -69,4 +68,36 @@ p {
   font-weight: normal;
   line-height: 24px;
   padding: 18px 30px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .hero p {
+    font-size: 25px;
+  }
+
+  .project-description {
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .description-col {
+    margin-left: 0px !important;
+  }
+
+  .btn-project {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    max-width: 200px;
+  }
 }
