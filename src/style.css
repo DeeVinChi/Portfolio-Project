@@ -23,7 +23,12 @@ h2 {
   margin-bottom: 55px;
 }
 
+img {
+  border-radius: 4px;
+}
+
 .project-description {
+  font-size: 16px;
   font-weight: normal;
   line-height: 1.7;
   color: var(--primary-font-color);
@@ -47,6 +52,25 @@ h2 {
   font-size: 36px;
   font-weight: bold;
   margin: 0 auto;
+}
+
+.about-hero {
+  padding: 160px 20px;
+}
+
+.about-hero h1 {
+  font-size: 64px;
+  line-height: 85.31px;
+}
+
+.about-hero h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-family: var(--primary-font-color);
+}
+
+.about-hero-content {
+  margin: 30px;
 }
 
 .btn-contact {
@@ -88,7 +112,17 @@ h2 {
   .project-description {
     text-align: center;
     line-height: 1.2;
+
   }
+.about-hero{
+text-align: center;
+padding: 0;
+margin-bottom: 10px;
+}
+
+.about-hero-content {
+  margin: 10px 0;
+}
 
   .description-col {
     margin-left: 0px !important;
