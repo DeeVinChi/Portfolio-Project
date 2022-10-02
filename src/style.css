@@ -27,14 +27,6 @@ img {
   border-radius: 4px;
 }
 
-.project-description {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 1.7;
-  color: var(--primary-font-color);
-  opacity: 70%;
-}
-
 .hero {
   background: #f9f7fe;
   text-align: center;
@@ -54,23 +46,38 @@ img {
   margin: 0 auto;
 }
 
-.about-hero {
+.project-description {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.7;
+  color: var(--primary-font-color);
+  opacity: 70%;
+}
+
+.content-container {
   padding: 160px 20px;
 }
 
-.about-hero h1 {
+.content {
+  margin: 30px;
+}
+
+.content h1 {
   font-size: 64px;
   line-height: 85.31px;
 }
 
-.about-hero h2 {
+.content h2 {
   font-size: 18px;
   line-height: 27px;
   font-family: var(--primary-font-color);
 }
 
-.about-hero-content {
-  margin: 30px;
+.content h3 {
+  font-family: var(--primary-font-family);
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0 0;
 }
 
 .btn-contact {
@@ -112,17 +119,16 @@ img {
   .project-description {
     text-align: center;
     line-height: 1.2;
-
   }
-.about-hero{
-text-align: center;
-padding: 0;
-margin-bottom: 10px;
-}
+  .content-container {
+    text-align: center;
+    padding: 0;
+    margin-bottom: 10px;
+  }
 
-.about-hero-content {
-  margin: 10px 0;
-}
+  .content {
+    margin: 10px 0;
+  }
 
   .description-col {
     margin-left: 0px !important;
