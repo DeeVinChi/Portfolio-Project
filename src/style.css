@@ -2,7 +2,7 @@
   --heading-font-family: "Playfair Display", serif;
   --primary-font-family: "Poppins", sans-serif;
   --primary-font-color: #272142;
-  --button-color: #6c63ff;
+  --secondary-color: #6c63ff;
 }
 
 body {
@@ -25,6 +25,39 @@ h2 {
 
 img {
   border-radius: 4px;
+}
+
+.logo {
+  max-height: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-font-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav li.active a,
+nav a:hover {
+  color: var(--secondary-color);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
 }
 
 .hero {
@@ -81,8 +114,8 @@ img {
 }
 
 .btn-contact {
-  background: var(--button-color);
-  border: 1px solid var(--button-color);
+  background: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -92,9 +125,9 @@ img {
 }
 
 .btn-project {
-  border: 1px solid var(--button-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 4px;
-  color: var(--button-color);
+  color: var(--secondary-color);
   font-size: 16px;
   font-weight: normal;
   line-height: 24px;
