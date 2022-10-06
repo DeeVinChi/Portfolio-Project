@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Uzoma Chigozirim is a Front-end engineeer based in Nigeria"
+    />
+    <title>Uzoma Chigozirim: Front-end Developer</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
@@ -38,18 +42,20 @@
             src="/images/logo.png"
             class="logo d-none d-md-block"
             alt="logo"
+            title="Homepage"
           />
           <img
             src="/images/small-logo.jpg"
             class="logo d-block d-md-none"
             alt="logo"
+            title="Homepage"
           />
         </a>
         <ul>
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li class="active"><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Page">About</a></li>
+          <li><a href="/work.html" title="Work Page">Work</a></li>
+          <li><a href="/contact.html" title="Contact Page">Contact</a></li>
         </ul>
       </nav>
     </div>
@@ -58,7 +64,12 @@
       <h1>Uzoma Chigozirim</h1>
       <h2>Front-end Developer Based in Nigeria</h2>
       <div>
-        <a href="#" class="btn btn-contact">Contact Me</a>
+        <a
+          href="/contact.html"
+          title="Contact Chigozirim"
+          class="btn btn-contact"
+          >Contact Me</a
+        >
       </div>
     </div>
     <p class="text-center mb-5">
@@ -70,7 +81,6 @@
           <img
             src="/images/yogurt.png"
             alt="Yogurt Project"
-            title="yummy yogurt"
             class="img-fluid"
           />
         </div>
@@ -82,7 +92,7 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="#" class="btn btn-project">Learn More</a>
+          <a href="/work.html" class="btn btn-project">Learn More</a>
         </div>
       </div>
 
@@ -95,13 +105,12 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="#" class="btn btn-project">Learn More</a>
+          <a href="/work.html" class="btn btn-project">Learn More</a>
         </div>
         <div class="col ms-4 d-none d-lg-block">
           <img
             src="/images/my-weather-app.png"
             alt="Weather App"
-            title="Weather"
             class="img-fluid"
           />
         </div>
@@ -109,12 +118,7 @@
 
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img
-            src="/images/yoga.png"
-            alt="Yoga Project"
-            title="yoga Lady"
-            class="img-fluid"
-          />
+          <img src="/images/yoga.png" alt="Yoga Project" class="img-fluid" />
         </div>
         <div class="col ms-4 description-col">
           <h2>Yoga Project</h2>
@@ -124,34 +128,59 @@
             live in Bookmarksgrove right at the coast of the Semantics, a large
             language ocean. A small river named Duden flows by
           </p>
-          <a href="#" class="btn btn-project">Learn More</a>
+          <a href="/work.html" class="btn btn-project">Learn More</a>
         </div>
       </div>
-      <footer>
+    </div>
+      <footer class="container">
         <div class="footer-box d-none d-md-flex">
           <div>
             <h4>Work Inquiry</h4>
             <p>Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-contact">Contact Me</a>
+            <a
+              href="/contact.html"
+              title="contact chigozirim"
+              class="btn btn-contact"
+              >Contact Me</a
+            >
           </div>
         </div>
-        <a href="mailto:uzomadivinegrace@gmail.com" class="email-link"
+        <a
+          href="mailto:uzomadivinegrace@gmail.com"
+          title="email address"
+          class="email-link"
           >uzomadivinegrace@gmail.com</a
         >
         <div class="social-links">
-          <a href="https://www.github.com/DeeVinChi" target="_blank"
+          <a
+            href="https://www.github.com/DeeVinChi"
+            title="github"
+            target="_blank"
             ><i class="fab fa-github"></i
           ></a>
-          <a href="https://www.twitter.com/DeeGracedGirl" target="_blank"
+          <a
+            href="https://www.twitter.com/DeeGracedGirl"
+            title="twitter page"
+            target="_blank"
             ><i class="fab fa-twitter"></i
           ></a>
-          <a href="https://www.github.com/grachisun" target="_blank"
+          <a
+            href="https://www.instagram.com/grachisun"
+            title="instagram page"
+            target="_blank"
             ><i class="fab fa-instagram"></i
           ></a>
         </div>
+        <p class="text-center mt-3">
+          This Project was coded by Uzoma Chigozirim and is
+          <a
+            href="https://github.com/DeeVinChi/Portfolio-Project"
+            target="_blank"
+            >open sourced</a
+          >
+        </p>
       </footer>
-    </div>
   </body>
 </html>
